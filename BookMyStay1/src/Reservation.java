@@ -1,6 +1,3 @@
-/**
- * Represents a booking request made by a guest
- */
 public class Reservation {
 
     private String guestName;
@@ -17,10 +14,5 @@ public class Reservation {
 
     public String getRoomType() {
         return roomType;
-    }
-
-    @Override
-    public String toString() {
-        return "Guest: " + guestName + ", Room Type: " + roomType;
     }
 }
